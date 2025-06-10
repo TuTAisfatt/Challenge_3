@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Challenge_3</string>
+    <string name="addition">Addition</string>
+    <string name="multiplication">Multiplication</string>
+    <string name="substraction">Substraction</string>
+    <string name="my_app">My app</string>
+    <string name="next_question">Next Question</string>
+    <string name="ok">OK</string>
+    <string name="textview">TextView</string>
+    <string name="life">Life:</string>
+    <string name="score">Score:</string>
+    <string name="timer">Timer:</string>
+    <string name="my_app_2">My app</string>
+    <string name="write_your_answer">Write your answer</string>
+    <string name="subtraction">subtraction\n</string>
+    <string name="congrats">Congrats</string>
+    <string name="my_app_3">My App</string>
+    <string name="score_final">Score</string>
+    <string name="play_again">Play Again</string>
+    <string name="exit">Exit</string>
+</resources>
