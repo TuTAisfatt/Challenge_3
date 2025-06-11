@@ -16,9 +16,10 @@
         android:theme="?attr/actionBarTheme"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.033" />
+        app:layout_constraintVertical_bias="0.459" />
 
     <TextView
         android:id="@+id/textView"
@@ -39,7 +40,7 @@
         android:id="@+id/linearLayout"
         android:layout_width="409dp"
         android:layout_height="39dp"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="4dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/txtAddition"
         app:layout_constraintEnd_toEndOf="parent"
@@ -53,14 +54,16 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/score"
-            android:textColor="#E91E63" />
+            android:textAlignment="textEnd"
+            android:textColor="#F44336"
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/txtScoreNumber"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textColor="#E91E63" />
+            android:textColor="#F44336" />
 
         <TextView
             android:id="@+id/txtLife"
@@ -68,14 +71,16 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/life"
-            android:textColor="#E91E63" />
+            android:textAlignment="textEnd"
+            android:textColor="#F44336"
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/txtLifeNumber"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textColor="#E91E63" />
+            android:textColor="#F44336" />
 
         <TextView
             android:id="@+id/txtTimer"
@@ -83,26 +88,28 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/timer"
-            android:textColor="#E91E63" />
+            android:textAlignment="textEnd"
+            android:textColor="#F44336"
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/txtTime"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textColor="#E91E63" />
+            android:textColor="#F44336" />
     </LinearLayout>
 
     <TextView
         android:id="@+id/txtAddition"
         android:layout_width="183dp"
         android:layout_height="83dp"
-        android:layout_marginBottom="56dp"
+        android:layout_marginBottom="16dp"
         android:importantForAutofill="no"
         android:text="@string/textview"
         android:textAlignment="center"
         android:textColor="#FF9800"
-        android:textSize="24sp"
+        android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/editTextWriteYourAnswer"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -111,12 +118,13 @@
         android:id="@+id/editTextWriteYourAnswer"
         android:layout_width="325dp"
         android:layout_height="51dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="16dp"
         android:backgroundTint="#0D0D0D"
         android:ems="10"
         android:hint="@string/write_your_answer"
         android:inputType="text"
         android:textColor="#F8F5F5"
+        android:textColorHint="#979595"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -124,12 +132,13 @@
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="411dp"
-        android:layout_height="251dp"
-        android:layout_marginBottom="76dp"
+        android:layout_width="410dp"
+        android:layout_height="83dp"
+        android:layout_marginBottom="372dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent">
 
         <Button

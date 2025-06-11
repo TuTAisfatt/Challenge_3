@@ -15,7 +15,7 @@
         android:textAlignment="center"
         android:textColor="#F8F4F4"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintBottom_toTopOf="@+id/txtResults"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
@@ -50,7 +50,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/txtResults"
         android:layout_width="214dp"
         android:layout_height="43dp"
         android:layout_marginBottom="92dp"
@@ -75,7 +75,7 @@
 
         <Button
             android:id="@+id/btnPlayAgain"
-            android:layout_width="wrap_content"
+            android:layout_width="95dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="#2196F3"
